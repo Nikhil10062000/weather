@@ -20,7 +20,7 @@ const Button = () => {
       ) : (
         <button className="btn-switch"
           onClick={() => {
-            setToggle(false);
+            setToggle(true);
             setSwitch(true);
           }}
         >
